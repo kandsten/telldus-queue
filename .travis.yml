@@ -7,4 +7,7 @@ addons:
     - sourceline: 'deb http://download.telldus.com/debian/ stable main'
     - key_url: 'http://download.telldus.se/debian/telldus-public.key'
     packages:
+    - gcc-4.8
+    - g++-4.8
     - libtelldus-core-dev
+    - telldus-core
