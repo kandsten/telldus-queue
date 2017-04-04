@@ -21,5 +21,9 @@
     "cov": "TESTING=1 istanbul cover --report html node_modules/mocha/bin/_mocha -- -R spec"
   },
   "author": "Kriss Andsten <kriss@raljant.se>",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": { 
+    "type" : "git",
+    "url" : "https://github.com/kandsten/telldus-queue"
+  }
 }
