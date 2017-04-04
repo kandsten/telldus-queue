@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/kandsten/telldus-queue.svg?branch=master)](https://travis-ci.org/kandsten/telldus-queue)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 # telldus-queue
 Telldus-queue is a wrapper for the [node-telldus](https://github.com/Hexagon/node-telldus) module, providing 
 command repetition and debouncing while maintaining the API from [node-telldus](https://github.com/Hexagon/node-telldus). 
