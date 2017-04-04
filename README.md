@@ -1,3 +1,4 @@
+[![npm version](https://badge.fury.io/js/telldus-queue.svg)](https://badge.fury.io/js/telldus-queue)
 [![Build Status](https://travis-ci.org/kandsten/telldus-queue.svg?branch=master)](https://travis-ci.org/kandsten/telldus-queue)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
