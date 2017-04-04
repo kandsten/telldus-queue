@@ -1,6 +1,6 @@
 {
   "name": "telldus-queue",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "description": "Wrapper for node-telldus handling command repetitions and debouncing.",
   "main": "telldus-queue.js",
   "dependencies": {
@@ -22,8 +22,8 @@
   },
   "author": "Kriss Andsten <kriss@raljant.se>",
   "license": "MIT",
-  "repository": { 
-    "type" : "git",
-    "url" : "https://github.com/kandsten/telldus-queue"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kandsten/telldus-queue"
   }
 }
