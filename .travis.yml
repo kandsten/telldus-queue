@@ -1,8 +1,10 @@
-before_install:
-  - wget -q http://download.telldus.se/debian/telldus-public.key -O- | sudo apt-key add -
-  - sudo echo "deb http://download.telldus.com/debian/ stable main" > /etc/apt/sources.list
-  - sudo apt-get -qq update
-  - sudo apt-get install -y libtelldus-core-dev
 language: node_js
 node_js:
   - "node"
+addons:
+  apt:
+    sources:
+    - sourceline: 'deb http://download.telldus.com/debian/ stable main'
+    - key_url: 'http://download.telldus.se/debian/telldus-public.key'
+    packages:
+    - libtelldus-core-dev
